@@ -1,7 +1,7 @@
 :root
 {
 	--l-svg: 0;
-	--d-svg: 0.97;
+	--d-svg: 0.975;
 	--l-wgt: 400;
 	--d-wgt: 300;
 	--b: #000;
@@ -12,8 +12,8 @@
 	--w-thin: #FFFFFFB0;
 	--d: #008040F7;
 	--l: #60D090F0;
-	--b-veil: #10101050;
-	--w-veil: #F6F6F650;
+	--b-veil: #10101060;
+	--w-veil: #F6F6F660;
 	--svg: var(--l-svg);
 	--wgt: var(--l-wgt);
 	--text: var(--b);
@@ -37,7 +37,7 @@ body, #b
 	background: var(--back);
 	color: var(--text);
 	font-family: 'IBM Plex Mono', 'UI', monospace;
-	line-height: 1.575;
+	line-height: 1.585;
 	font-weight: var(--wgt);
 	text-shadow: 0 0 calc((var(--wgt) - 300)/400*0.2px) #5555;
 	min-width: 320px;
@@ -62,7 +62,7 @@ body, #b
 	background-image: url("../images/pattern.svg");
 	background-size: cover;
 	background-position-x: center;
-	opacity: 0.95;
+	opacity: 0.9;
 	content: "";
 }
 #t, #m
@@ -108,7 +108,7 @@ body, #b
 }
 h1
 {
-	font-size: 2.125em;
+	font-size: 2.15em;
 	margin: 0;
 	padding: 0;
 	line-height: 1.25;
@@ -283,7 +283,7 @@ a:hover:after, a:focus:not(:focus-visible):after
 }
 .o > p
 {
-	margin-right: 0.8ch;
+	margin-right: 0.75ch;
 	background: var(--veil);
 }
 @keyframes o
@@ -293,7 +293,7 @@ a:hover:after, a:focus:not(:focus-visible):after
 .f
 {
 	border-top: 1px dotted;
-	font-size: 0.925rem;
+	font-size: 0.9rem;
 	line-height: 1.25;
 	background: var(--thin);
 	display: flex;
@@ -353,7 +353,7 @@ a:hover:after, a:focus:not(:focus-visible):after
 	}
 	.s:target:not(#root) ~ .d > .h > h1
 	{
-		font-size: 2.125em;
+		font-size: 2.15em;
 		margin-left: -0.03ch;
 		transition: font-size 0.6s ease, margin 0.6s ease;
 	}
@@ -380,7 +380,7 @@ a:hover:after, a:focus:not(:focus-visible):after
 	}
 	#root ~ .d > .h > h1
 	{
-		font-size: 5em;
+		font-size: 4.75em;
 		margin-left: -0.07ch;
 		transition: font-size 0.6s ease, margin 0.6s ease;
 	}
@@ -562,7 +562,7 @@ td:nth-child(2)
 }
 #t3 td:nth-child(2)
 {
-	min-inline-size: 8ch;
+	min-inline-size: 10ch;
 }
 summary
 {
@@ -579,15 +579,15 @@ details[open] > summary::marker
 }
 details > p
 {
-	font-size: 0.95em;
+	font-size: 0.9em;
 	border-top: 1px dotted var(--glow);
 	background: var(--back);
-	margin: 0 calc(-6ch/0.95 - 0.6rem) 0 -0.3rem;
+	margin: 0 calc(-6ch/0.9 - 0.6rem) 0 -0.3rem;
 	padding: 0.7rem 0.5rem 0.7rem calc(2.75ch + 0.6rem);
 }
 #t3 details > p
 {
-	margin-right: calc(-8ch/0.95 - 0.6rem);
+	margin-right: calc(-10ch/0.9 - 0.6rem);
 }
 @media (pointer: fine)
 {
@@ -601,7 +601,7 @@ details > p
 {
 	user-select: none;
 	margin: 3rem 0;
-	width: 99.25%;
+	width: 99.5%;
 	filter: invert(var(--svg)) hue-rotate(-35deg) saturate(85%);
 }
 #g0
@@ -612,7 +612,7 @@ details > p
 }
 #g1
 {
-	opacity: 0.95;
+	opacity: 1;
 	content: url("../images/system.png");
 }
 ::-webkit-scrollbar
@@ -658,7 +658,7 @@ details > p
 	}
 	.f
 	{
-		font-size: 0.9rem;
+		font-size: 0.885rem;
 		line-height: 1;
 	}
 }
