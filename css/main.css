@@ -120,8 +120,8 @@ h1, h2
 h3
 {
 	margin: 2rem 0 1rem 0;
-	font-weight: var(--wgt);
-	text-shadow: 0 0 0.2px var(--glow);
+	font-weight: calc(var(--wgt) + 100);
+	text-shadow: 0 0 0.1px var(--text);
 }
 a
 {
